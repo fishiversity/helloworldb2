@@ -6,3 +6,10 @@ input.onButtonPressed(Button.B, function () {
 })
 basic.showIcon(IconNames.Yes)
 basic.showNumber(0)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . # . .
+    . . . . .
+    . . . . .
+    `)
